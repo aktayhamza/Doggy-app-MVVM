@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/dogFragment">
+    <fragment
+        android:id="@+id/dogFragment"
+        android:name="com.hamzaaktay.dogappmvvm.ui.fragment.DogFragment"
+        android:label="fragment_dog"
+        tools:layout="@layout/fragment_dog" />
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.hamzaaktay.dogappmvvm.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/bookmarkFragment2"
+        android:name="com.hamzaaktay.dogappmvvm.ui.fragment.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+    <action
+        android:id="@+id/toDogFragment"
+        app:destination="@id/dogFragment"/>
+</navigation>
