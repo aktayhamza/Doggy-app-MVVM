@@ -20,7 +20,8 @@ Retrofit2 ve Glide kullanilarak Dog API uzerinden gelen random gorseller kullani
 ## Preview
 Ekleme tusuna basarak gorselin degismesini saglayabilirsiniz. Fotograf eklendikce arka plan da degisiyor.
 
-![gifapp](https://user-images.githubusercontent.com/84986629/168497352-a59f9bc9-93cd-4976-bde1-3a20ec0c3d9c.gif)
+![song'f](https://user-images.githubusercontent.com/84986629/168499751-37172c5c-8ac5-4e44-a888-57fbac3296d5.gif)
+
 
 
 
